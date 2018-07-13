@@ -1,0 +1,4 @@
+attackChance: 1
+attackReapeatTicks: 500
+attackDistance: 10
+attackAmount: 6

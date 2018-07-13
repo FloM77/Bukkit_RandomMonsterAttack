@@ -1,0 +1,13 @@
+name: RandomMonsterAttack
+version: 1.0
+main: AT.MSev.RandomMonsterAttack.RandomMonsterAttack
+commands:
+  safezone:
+    description: Sets a safe zone
+    usage: /safezone [xfrom] [yfrom] [zfrom] [xto] [yto] [zto]
+    permission: RandomMonsterAttack.safezone
+    permission-message: You don't have <permission>
+permissions:
+  RandomMonsterAttack.safezone:
+    description: Allows you to set safe zones
+    default: op
